@@ -1,4 +1,5 @@
 //gradle publishToMavenLocal
+defaultTasks("jar")
 plugins{
   id("java-library")
   id("maven-publish")

@@ -1,9 +1,7 @@
 /*
  */
 package tabou.args;
-import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Supplier;
-import java.util.function.Consumer;
 public class ArgsParam<M>{
     private char shortParam;
 //    private Supplier<M> buildFactory;
